@@ -14,6 +14,25 @@
         bot: { id: 'botid' },
         resize: 'detect'
       }, document.getElementById("bot"));
+
+		var labelRemove1 = document.querySelector('.wc-upload');
+		labelRemove1.textContent = null;
+		
+		var imgtest1 = document.createElement("img");
+		imgtest1.src = "bot-service.png";
+		imgtest1.width = "60";
+		imgtest1.height = "38";
+		labelRemove1.appendChild(imgtest1);
+		
+		var labelRemove2 = document.querySelector('.wc-send');
+		labelRemove2.textContent = null;
+		
+		var imgtest2 = document.createElement("img");
+		imgtest2.src = "bot-service.png";
+		imgtest2.width = "60";
+		imgtest2.height = "38";
+		labelRemove2.appendChild(imgtest2);
+		
     </script>
   </body>
 </html>
